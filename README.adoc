@@ -1,0 +1,7 @@
+= zim-steampipe
+
+https://github.com/zimfw/zimfw[zim module] for https://github.com/turbot/steampipe[steampipe].
+
+== Features
+
+* Completion
