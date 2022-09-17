@@ -1,0 +1,8 @@
+(( ${+commands[steampipe]} || ${+commands[asdf]} && ${+functions[_direnv_hook]} )) && () {
+
+  local command=${commands[steampipe]:-"$(${commands[asdf]} which steampipe 2> /dev/null)"}
+  [[ -z $command ]] && return 1
+
+  local compfile=$1/functions/_steampipe
+  [[ ! -e $compfile || $compfile -ot $command ]] && $command completion zsh >| $compfile
+} ${0:h}
