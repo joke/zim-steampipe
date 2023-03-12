@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/joke/zim-steampipe/compare/v1.1.0...v1.1.1) (2023-03-12)
+
+
+### Bug Fixes
+
+* new version detection message ([9daa0ed](https://github.com/joke/zim-steampipe/commit/9daa0edb41a8e0cf25d0ee29e2b191142d8f9512))
+
 ## [1.1.0](https://github.com/joke/zim-steampipe/compare/v1.0.0...v1.1.0) (2022-09-17)
 
 
